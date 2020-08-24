@@ -1,7 +1,13 @@
 <h1>Display your Pirate here</h1>
+<%=@pirates.name%>
+<%=@pirates.weight%>
+<%=@pirates.height%>
 
-
-<h2>Display your first ship here</h2>
-
-
-<h2>Display your second ship here</h2>
+<h2><input id="ship_name_1" type="text" name="pirate[ships][][name]" ></h2>
+<%=@ship1.name%>
+<%=@ship1.type%>
+<%=@ship1.booty%>
+<h2><input id="ship_name_2" type="text" name="pirate[ships][][name]" ></h2>
+<%=@ship2.name%>
+<%=@ship2.type%>
+<%=@ship2.booty%>
