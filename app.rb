@@ -18,6 +18,7 @@ module FormsLab
       @ship2 = Ship.new(params[:pirate][:ships][1])
       erb :'pirates/show'
     end
-
+    ##<input id="ship_name_1" type="text" name="pirate[ships][][name]" >
+    #<input id="ship_name_2" type="text" name="pirate[ships][][name]" >
   end
 end
