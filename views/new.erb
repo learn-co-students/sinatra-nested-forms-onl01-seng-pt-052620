@@ -1,0 +1,34 @@
+<h1>New Pirates and Ships!</h1>
+
+<form action="/pirates" method="post">
+    
+    <div>
+        <label for="name">Pirate Name:</label>
+        <input type="text" name="pirate[name]">
+        <label for="weight">Pirate Weight:</label>
+        <input type="text" name="pirate[weight]">
+        <label for="name">Pirate Height:</label>
+        <input type="text" name="pirate[height]">
+    </div><br>
+
+    <div>
+        <label for="name">Ship Name:</label>
+        <input type="text" id="ship_name_1" name="pirate[ships][][name]">
+        <label for="name">Ship Type:</label>
+        <input type="text" id="ship_type_1" name="pirate[ships][][type]">
+        <label for="name">Ship Booty:</label>
+        <input type="text" id="ship_booty_1" name="pirate[ships][][booty]">
+    </div><br>
+    <div>
+        <label for="name">Ship Name:</label>
+        <input type="text" id="ship_name_2" name="pirate[ships][][name]">
+        <label for="name">Ship Type:</label>
+        <input type="text" id="ship_type_2" name="pirate[ships][][type]">
+        <label for="name">Ship Booty:</label>
+        <input type="text" id="ship_booty_2" name="pirate[ships][][booty]">
+    </div><br>
+    <input type="submit" value="Submit">
+</form>
+
+
+
