@@ -18,4 +18,8 @@ class Ship
   def self.clear
     @@all.clear
   end
+
+  def pirate=(pirate)
+    @pirate
+  end 
 end
